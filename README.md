@@ -3,8 +3,8 @@
 The first homework task entailed answering 15 questions. You can find them below along with my answers:
 
 ## Easy:
-1.	What is CCIP Lane?
-   
+
+1. **What is CCIP Lane?**   
   It is the unidirectional pathway between a source and a destination blockchain that allows for the transfer of messages (data and tokens).
 3.	What is CCIP Chain Selector? How does it differ from Chain ID?
   A unique identifier to distinguish between blockchain networks in CCIP. It differs from chain ID in that all chains connected by CCIP have a selector, while only EVM chains have an ID. Also, the selector is a uint64 and the ID, uint256.
