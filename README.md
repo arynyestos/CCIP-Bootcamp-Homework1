@@ -1,4 +1,4 @@
-# CCIP-Bootcamp-Homework1
+# CCIP Bootcamp Day 1 Homework
 
 The first homework task entailed answering the 15 questions listed [here](https://cll-devrel.gitbook.io/ccip-bootcamp/day-1/day-1-homework). You can also find them below along with my answers:
 
