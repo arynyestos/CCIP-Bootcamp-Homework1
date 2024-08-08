@@ -6,13 +6,14 @@ The first homework task entailed answering 15 questions. You can find them below
 
 1. **What is CCIP Lane?**  
   It is the unidirectional pathway between a source and a destination blockchain that allows for the transfer of messages (data and tokens).
-2.	**What is CCIP Chain Selector? How does it differ from Chain ID?**  
+
+3.	**What is CCIP Chain Selector? How does it differ from Chain ID?**  
   A unique identifier to distinguish between blockchain networks in CCIP. It differs from chain ID in that all chains connected by CCIP have a selector, while only EVM chains have an ID. Also, the selector is a uint64 and the ID, uint256.
-3.	**What is gasLimit in CCIP Messages used for?**  
+4.	**What is gasLimit in CCIP Messages used for?**  
   It specifies the maximum amount of gas that can be consumed to execute ccipReceive() on the contract located on the destination blockchain.
-4.	**How can one monitor CCIP Messages in real time?**  
+5.	**How can one monitor CCIP Messages in real time?**  
   Using CCIP explorer.
-5.	**What are the three main capabilities of Chainlink CCIP? Provide examples of potential use cases leveraging these capabilities.**  
+6.	**What are the three main capabilities of Chainlink CCIP? Provide examples of potential use cases leveraging these capabilities.**  
   Token transfers, data transfers and cross-chain smart contract calls. Token transfers could potentially allow for shared liquidity, which is currently fragmented among tens of blockchain networks. A potential use case for data transfers could be to get on Celo data from the LINK/USD price feed on Ethereum, for example. Regarding smart contract calls, these could make it possible to create multichain smart contract systems in which the actions initiated by a transaction sent by a user on one chain could have effects in other chains. This would combine very well with the aforementioned shared liquidity.
 
 ## Medium:
